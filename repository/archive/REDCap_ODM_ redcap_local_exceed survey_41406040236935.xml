@@ -1,0 +1,3532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ODM SourceSystem="192.168.52.132" ODMVersion="1.3.1" AsOfDateTime="2014-07-22T15:43:53.216+01:00" CreationDateTime="2014-07-22T15:43:53.216+01:00" FileOID="000-000-000" FileType="Transactional" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.cdisc.org/ns/odm/v1.3">
+    <Study OID="4">
+        <GlobalVariables>
+            <StudyName>exceed survey</StudyName>
+            <StudyDescription>This project is retrieved from API site:http://192.168.52.132/redcap_service/</StudyDescription>
+            <ProtocolName>-</ProtocolName>
+        </GlobalVariables>
+        <BasicDefinitions/>
+        <MetaDataVersion Name="Version 1.3.1" OID="v1.3.1">
+            <Protocol>
+                <StudyEventRef StudyEventOID="SE.Arm 1: Event 1" Mandatory="No" OrderNumber="1"/>
+            </Protocol>
+            <StudyEventDef Type="Common" Repeating="No" Name="Arm 1: Event 1" OID="SE.Arm 1: Event 1">
+                <FormRef Mandatory="No" OrderNumber="1" FormOID="FM.survey"/>
+            </StudyEventDef>
+            <FormDef Repeating="No" Name="survey" OID="FM.survey">
+                <ItemGroupRef Mandatory="No" OrderNumber="1" ItemGroupOID="IG.survey"/>
+            </FormDef>
+            <ItemGroupDef Repeating="No" Name="survey" OID="IG.survey">
+                <ItemRef ItemOID="IT.participant_id" Mandatory="No" OrderNumber="1"/>
+                <ItemRef ItemOID="IT.exceed_study_id" Mandatory="No" OrderNumber="2"/>
+                <ItemRef ItemOID="IT.id_chk" Mandatory="No" OrderNumber="3"/>
+                <ItemRef ItemOID="IT.gen1" Mandatory="No" OrderNumber="4"/>
+                <ItemRef ItemOID="IT.gen2" Mandatory="No" OrderNumber="5"/>
+                <ItemRef ItemOID="IT.gen3" Mandatory="No" OrderNumber="6"/>
+                <ItemRef ItemOID="IT.gen4" Mandatory="No" OrderNumber="7"/>
+                <ItemRef ItemOID="IT.gen5" Mandatory="No" OrderNumber="8"/>
+                <ItemRef ItemOID="IT.gen5a" Mandatory="No" OrderNumber="9"/>
+                <ItemRef ItemOID="IT.gen6" Mandatory="No" OrderNumber="10"/>
+                <ItemRef ItemOID="IT.gen6a" Mandatory="No" OrderNumber="11"/>
+                <ItemRef ItemOID="IT.gen7" Mandatory="No" OrderNumber="12"/>
+                <ItemRef ItemOID="IT.gen7a" Mandatory="No" OrderNumber="13"/>
+                <ItemRef ItemOID="IT.sm1" Mandatory="No" OrderNumber="14"/>
+                <ItemRef ItemOID="IT.sm2" Mandatory="No" OrderNumber="15"/>
+                <ItemRef ItemOID="IT.sm3" Mandatory="No" OrderNumber="16"/>
+                <ItemRef ItemOID="IT.sm4" Mandatory="No" OrderNumber="17"/>
+                <ItemRef ItemOID="IT.sm5" Mandatory="No" OrderNumber="18"/>
+                <ItemRef ItemOID="IT.sm6" Mandatory="No" OrderNumber="19"/>
+                <ItemRef ItemOID="IT.sm7" Mandatory="No" OrderNumber="20"/>
+                <ItemRef ItemOID="IT.sm7a" Mandatory="No" OrderNumber="21"/>
+                <ItemRef ItemOID="IT.sm8" Mandatory="No" OrderNumber="22"/>
+                <ItemRef ItemOID="IT.sm9" Mandatory="No" OrderNumber="23"/>
+                <ItemRef ItemOID="IT.sm10b" Mandatory="No" OrderNumber="24"/>
+                <ItemRef ItemOID="IT.sm10c" Mandatory="No" OrderNumber="25"/>
+                <ItemRef ItemOID="IT.sm10d" Mandatory="No" OrderNumber="26"/>
+                <ItemRef ItemOID="IT.sm10e" Mandatory="No" OrderNumber="27"/>
+                <ItemRef ItemOID="IT.sm10f" Mandatory="No" OrderNumber="28"/>
+                <ItemRef ItemOID="IT.sm11" Mandatory="No" OrderNumber="29"/>
+                <ItemRef ItemOID="IT.sm12" Mandatory="No" OrderNumber="30"/>
+                <ItemRef ItemOID="IT.sm12a" Mandatory="No" OrderNumber="31"/>
+                <ItemRef ItemOID="IT.sm13" Mandatory="No" OrderNumber="32"/>
+                <ItemRef ItemOID="IT.sm14" Mandatory="No" OrderNumber="33"/>
+                <ItemRef ItemOID="IT.sm15" Mandatory="No" OrderNumber="34"/>
+                <ItemRef ItemOID="IT.sm16" Mandatory="No" OrderNumber="35"/>
+                <ItemRef ItemOID="IT.sm17" Mandatory="No" OrderNumber="36"/>
+                <ItemRef ItemOID="IT.sm18" Mandatory="No" OrderNumber="37"/>
+                <ItemRef ItemOID="IT.sm19" Mandatory="No" OrderNumber="38"/>
+                <ItemRef ItemOID="IT.sm20" Mandatory="No" OrderNumber="39"/>
+                <ItemRef ItemOID="IT.sm20a" Mandatory="No" OrderNumber="40"/>
+                <ItemRef ItemOID="IT.sm19a" Mandatory="No" OrderNumber="41"/>
+                <ItemRef ItemOID="IT.sm21" Mandatory="No" OrderNumber="42"/>
+                <ItemRef ItemOID="IT.sm22" Mandatory="No" OrderNumber="43"/>
+                <ItemRef ItemOID="IT.sm23" Mandatory="No" OrderNumber="44"/>
+                <ItemRef ItemOID="IT.sm24" Mandatory="No" OrderNumber="45"/>
+                <ItemRef ItemOID="IT.sm25" Mandatory="No" OrderNumber="46"/>
+                <ItemRef ItemOID="IT.sm25a" Mandatory="No" OrderNumber="47"/>
+                <ItemRef ItemOID="IT.sm26a" Mandatory="No" OrderNumber="48"/>
+                <ItemRef ItemOID="IT.sm27" Mandatory="No" OrderNumber="49"/>
+                <ItemRef ItemOID="IT.sm28b" Mandatory="No" OrderNumber="50"/>
+                <ItemRef ItemOID="IT.sm28c" Mandatory="No" OrderNumber="51"/>
+                <ItemRef ItemOID="IT.sm28d" Mandatory="No" OrderNumber="52"/>
+                <ItemRef ItemOID="IT.sm28e" Mandatory="No" OrderNumber="53"/>
+                <ItemRef ItemOID="IT.sm28f" Mandatory="No" OrderNumber="54"/>
+                <ItemRef ItemOID="IT.sm29" Mandatory="No" OrderNumber="55"/>
+                <ItemRef ItemOID="IT.sm30" Mandatory="No" OrderNumber="56"/>
+                <ItemRef ItemOID="IT.sm30a" Mandatory="No" OrderNumber="57"/>
+                <ItemRef ItemOID="IT.sm31" Mandatory="No" OrderNumber="58"/>
+                <ItemRef ItemOID="IT.sm32" Mandatory="No" OrderNumber="59"/>
+                <ItemRef ItemOID="IT.sm33" Mandatory="No" OrderNumber="60"/>
+                <ItemRef ItemOID="IT.sm34" Mandatory="No" OrderNumber="61"/>
+                <ItemRef ItemOID="IT.sm35" Mandatory="No" OrderNumber="62"/>
+                <ItemRef ItemOID="IT.sm36" Mandatory="No" OrderNumber="63"/>
+                <ItemRef ItemOID="IT.sm36a" Mandatory="No" OrderNumber="64"/>
+                <ItemRef ItemOID="IT.sm35a" Mandatory="No" OrderNumber="65"/>
+                <ItemRef ItemOID="IT.sm37" Mandatory="No" OrderNumber="66"/>
+                <ItemRef ItemOID="IT.sm38" Mandatory="No" OrderNumber="67"/>
+                <ItemRef ItemOID="IT.sm39" Mandatory="No" OrderNumber="68"/>
+                <ItemRef ItemOID="IT.sm40" Mandatory="No" OrderNumber="69"/>
+                <ItemRef ItemOID="IT.sm41" Mandatory="No" OrderNumber="70"/>
+                <ItemRef ItemOID="IT.sm41a" Mandatory="No" OrderNumber="71"/>
+                <ItemRef ItemOID="IT.sm40a" Mandatory="No" OrderNumber="72"/>
+                <ItemRef ItemOID="IT.sm42" Mandatory="No" OrderNumber="73"/>
+                <ItemRef ItemOID="IT.sm43" Mandatory="No" OrderNumber="74"/>
+                <ItemRef ItemOID="IT.sm44" Mandatory="No" OrderNumber="75"/>
+                <ItemRef ItemOID="IT.sm45" Mandatory="No" OrderNumber="76"/>
+                <ItemRef ItemOID="IT.sm46" Mandatory="No" OrderNumber="77"/>
+                <ItemRef ItemOID="IT.sm48" Mandatory="No" OrderNumber="78"/>
+                <ItemRef ItemOID="IT.sm47" Mandatory="No" OrderNumber="79"/>
+                <ItemRef ItemOID="IT.sm49" Mandatory="No" OrderNumber="80"/>
+                <ItemRef ItemOID="IT.sm50" Mandatory="No" OrderNumber="81"/>
+                <ItemRef ItemOID="IT.sm51" Mandatory="No" OrderNumber="82"/>
+                <ItemRef ItemOID="IT.sm52" Mandatory="No" OrderNumber="83"/>
+                <ItemRef ItemOID="IT.alc1" Mandatory="No" OrderNumber="84"/>
+                <ItemRef ItemOID="IT.alc2" Mandatory="No" OrderNumber="85"/>
+                <ItemRef ItemOID="IT.alc3" Mandatory="No" OrderNumber="86"/>
+                <ItemRef ItemOID="IT.alc7" Mandatory="No" OrderNumber="87"/>
+                <ItemRef ItemOID="IT.alc5" Mandatory="No" OrderNumber="88"/>
+                <ItemRef ItemOID="IT.alc6" Mandatory="No" OrderNumber="89"/>
+                <ItemRef ItemOID="IT.alc8" Mandatory="No" OrderNumber="90"/>
+                <ItemRef ItemOID="IT.alc9" Mandatory="No" OrderNumber="91"/>
+                <ItemRef ItemOID="IT.walc10" Mandatory="No" OrderNumber="92"/>
+                <ItemRef ItemOID="IT.fwalc10" Mandatory="No" OrderNumber="93"/>
+                <ItemRef ItemOID="IT.salc10" Mandatory="No" OrderNumber="94"/>
+                <ItemRef ItemOID="IT.balc10" Mandatory="No" OrderNumber="95"/>
+                <ItemRef ItemOID="IT.oalc10" Mandatory="No" OrderNumber="96"/>
+                <ItemRef ItemOID="IT.o2alc10" Mandatory="No" OrderNumber="97"/>
+                <ItemRef ItemOID="IT.alc10wmon" Mandatory="No" OrderNumber="98"/>
+                <ItemRef ItemOID="IT.alc10fwmon" Mandatory="No" OrderNumber="99"/>
+                <ItemRef ItemOID="IT.alc10smon" Mandatory="No" OrderNumber="100"/>
+                <ItemRef ItemOID="IT.alc10bmon" Mandatory="No" OrderNumber="101"/>
+                <ItemRef ItemOID="IT.alc10omon" Mandatory="No" OrderNumber="102"/>
+                <ItemRef ItemOID="IT.alc10o2mona" Mandatory="No" OrderNumber="103"/>
+                <ItemRef ItemOID="IT.alc10o2monb" Mandatory="No" OrderNumber="104"/>
+                <ItemRef ItemOID="IT.alc10wtue" Mandatory="No" OrderNumber="105"/>
+                <ItemRef ItemOID="IT.alc10fwtue" Mandatory="No" OrderNumber="106"/>
+                <ItemRef ItemOID="IT.alc10stue" Mandatory="No" OrderNumber="107"/>
+                <ItemRef ItemOID="IT.alc10btue" Mandatory="No" OrderNumber="108"/>
+                <ItemRef ItemOID="IT.alc10otue" Mandatory="No" OrderNumber="109"/>
+                <ItemRef ItemOID="IT.alc10o2tuea" Mandatory="No" OrderNumber="110"/>
+                <ItemRef ItemOID="IT.alc10o2tueb" Mandatory="No" OrderNumber="111"/>
+                <ItemRef ItemOID="IT.alc10wwed" Mandatory="No" OrderNumber="112"/>
+                <ItemRef ItemOID="IT.alc10fwwed" Mandatory="No" OrderNumber="113"/>
+                <ItemRef ItemOID="IT.alc10swed" Mandatory="No" OrderNumber="114"/>
+                <ItemRef ItemOID="IT.alc10bwed" Mandatory="No" OrderNumber="115"/>
+                <ItemRef ItemOID="IT.alc10owed" Mandatory="No" OrderNumber="116"/>
+                <ItemRef ItemOID="IT.alc10o2weda" Mandatory="No" OrderNumber="117"/>
+                <ItemRef ItemOID="IT.alc10o2wedb" Mandatory="No" OrderNumber="118"/>
+                <ItemRef ItemOID="IT.alc10wthu" Mandatory="No" OrderNumber="119"/>
+                <ItemRef ItemOID="IT.alc10fwthu" Mandatory="No" OrderNumber="120"/>
+                <ItemRef ItemOID="IT.alc10sthu" Mandatory="No" OrderNumber="121"/>
+                <ItemRef ItemOID="IT.alc10bthu" Mandatory="No" OrderNumber="122"/>
+                <ItemRef ItemOID="IT.alc10othu" Mandatory="No" OrderNumber="123"/>
+                <ItemRef ItemOID="IT.alc10o2thua" Mandatory="No" OrderNumber="124"/>
+                <ItemRef ItemOID="IT.alc10o2thub" Mandatory="No" OrderNumber="125"/>
+                <ItemRef ItemOID="IT.alc10wfri" Mandatory="No" OrderNumber="126"/>
+                <ItemRef ItemOID="IT.alc10fwfri" Mandatory="No" OrderNumber="127"/>
+                <ItemRef ItemOID="IT.alc10sfri" Mandatory="No" OrderNumber="128"/>
+                <ItemRef ItemOID="IT.alc10bfri" Mandatory="No" OrderNumber="129"/>
+                <ItemRef ItemOID="IT.alc10ofri" Mandatory="No" OrderNumber="130"/>
+                <ItemRef ItemOID="IT.alc10o2fria" Mandatory="No" OrderNumber="131"/>
+                <ItemRef ItemOID="IT.alc10o2frib" Mandatory="No" OrderNumber="132"/>
+                <ItemRef ItemOID="IT.alc10wsat" Mandatory="No" OrderNumber="133"/>
+                <ItemRef ItemOID="IT.alc10fwsat" Mandatory="No" OrderNumber="134"/>
+                <ItemRef ItemOID="IT.alc10ssat" Mandatory="No" OrderNumber="135"/>
+                <ItemRef ItemOID="IT.alc10bsat" Mandatory="No" OrderNumber="136"/>
+                <ItemRef ItemOID="IT.alc10osat" Mandatory="No" OrderNumber="137"/>
+                <ItemRef ItemOID="IT.alc10o2sata" Mandatory="No" OrderNumber="138"/>
+                <ItemRef ItemOID="IT.alc10o2satb" Mandatory="No" OrderNumber="139"/>
+                <ItemRef ItemOID="IT.alc10wsun" Mandatory="No" OrderNumber="140"/>
+                <ItemRef ItemOID="IT.alc10fwsun" Mandatory="No" OrderNumber="141"/>
+                <ItemRef ItemOID="IT.alc10ssun" Mandatory="No" OrderNumber="142"/>
+                <ItemRef ItemOID="IT.alc10bsun" Mandatory="No" OrderNumber="143"/>
+                <ItemRef ItemOID="IT.alc10osun" Mandatory="No" OrderNumber="144"/>
+                <ItemRef ItemOID="IT.alc10o2suna" Mandatory="No" OrderNumber="145"/>
+                <ItemRef ItemOID="IT.alc10o2sunb" Mandatory="No" OrderNumber="146"/>
+                <ItemRef ItemOID="IT.alc11" Mandatory="No" OrderNumber="147"/>
+                <ItemRef ItemOID="IT.walc11" Mandatory="No" OrderNumber="148"/>
+                <ItemRef ItemOID="IT.fwalc11" Mandatory="No" OrderNumber="149"/>
+                <ItemRef ItemOID="IT.salc11" Mandatory="No" OrderNumber="150"/>
+                <ItemRef ItemOID="IT.balc11" Mandatory="No" OrderNumber="151"/>
+                <ItemRef ItemOID="IT.oalc11" Mandatory="No" OrderNumber="152"/>
+                <ItemRef ItemOID="IT.o2alc11" Mandatory="No" OrderNumber="153"/>
+                <ItemRef ItemOID="IT.alc11wmon" Mandatory="No" OrderNumber="154"/>
+                <ItemRef ItemOID="IT.alc11fwmon" Mandatory="No" OrderNumber="155"/>
+                <ItemRef ItemOID="IT.alc11smon" Mandatory="No" OrderNumber="156"/>
+                <ItemRef ItemOID="IT.alc11bmon" Mandatory="No" OrderNumber="157"/>
+                <ItemRef ItemOID="IT.alc11omon" Mandatory="No" OrderNumber="158"/>
+                <ItemRef ItemOID="IT.alc11o2mona" Mandatory="No" OrderNumber="159"/>
+                <ItemRef ItemOID="IT.alc11o2monb" Mandatory="No" OrderNumber="160"/>
+                <ItemRef ItemOID="IT.alc11wtue" Mandatory="No" OrderNumber="161"/>
+                <ItemRef ItemOID="IT.alc11fwtue" Mandatory="No" OrderNumber="162"/>
+                <ItemRef ItemOID="IT.alc11stue" Mandatory="No" OrderNumber="163"/>
+                <ItemRef ItemOID="IT.alc11btue" Mandatory="No" OrderNumber="164"/>
+                <ItemRef ItemOID="IT.alc11otue" Mandatory="No" OrderNumber="165"/>
+                <ItemRef ItemOID="IT.alc11o2tuea" Mandatory="No" OrderNumber="166"/>
+                <ItemRef ItemOID="IT.alc11o2tueb" Mandatory="No" OrderNumber="167"/>
+                <ItemRef ItemOID="IT.alc11wwed" Mandatory="No" OrderNumber="168"/>
+                <ItemRef ItemOID="IT.alc11fwwed" Mandatory="No" OrderNumber="169"/>
+                <ItemRef ItemOID="IT.alc11swed" Mandatory="No" OrderNumber="170"/>
+                <ItemRef ItemOID="IT.alc11bwed" Mandatory="No" OrderNumber="171"/>
+                <ItemRef ItemOID="IT.alc11owed" Mandatory="No" OrderNumber="172"/>
+                <ItemRef ItemOID="IT.alc11o2weda" Mandatory="No" OrderNumber="173"/>
+                <ItemRef ItemOID="IT.alc11o2wedb" Mandatory="No" OrderNumber="174"/>
+                <ItemRef ItemOID="IT.alc11wthu" Mandatory="No" OrderNumber="175"/>
+                <ItemRef ItemOID="IT.alc11fwthu" Mandatory="No" OrderNumber="176"/>
+                <ItemRef ItemOID="IT.alc11sthu" Mandatory="No" OrderNumber="177"/>
+                <ItemRef ItemOID="IT.alc11bthu" Mandatory="No" OrderNumber="178"/>
+                <ItemRef ItemOID="IT.alc11othu" Mandatory="No" OrderNumber="179"/>
+                <ItemRef ItemOID="IT.alc11o2thua" Mandatory="No" OrderNumber="180"/>
+                <ItemRef ItemOID="IT.alc11o2thub" Mandatory="No" OrderNumber="181"/>
+                <ItemRef ItemOID="IT.alc11wfri" Mandatory="No" OrderNumber="182"/>
+                <ItemRef ItemOID="IT.alc11fwfri" Mandatory="No" OrderNumber="183"/>
+                <ItemRef ItemOID="IT.alc11sfri" Mandatory="No" OrderNumber="184"/>
+                <ItemRef ItemOID="IT.alc11bfri" Mandatory="No" OrderNumber="185"/>
+                <ItemRef ItemOID="IT.alc11ofri" Mandatory="No" OrderNumber="186"/>
+                <ItemRef ItemOID="IT.alc11o2fria" Mandatory="No" OrderNumber="187"/>
+                <ItemRef ItemOID="IT.alc11o2frib" Mandatory="No" OrderNumber="188"/>
+                <ItemRef ItemOID="IT.alc11wsat" Mandatory="No" OrderNumber="189"/>
+                <ItemRef ItemOID="IT.alc11fwsat" Mandatory="No" OrderNumber="190"/>
+                <ItemRef ItemOID="IT.alc11ssat" Mandatory="No" OrderNumber="191"/>
+                <ItemRef ItemOID="IT.alc11bsat" Mandatory="No" OrderNumber="192"/>
+                <ItemRef ItemOID="IT.alc11osat" Mandatory="No" OrderNumber="193"/>
+                <ItemRef ItemOID="IT.alc11o2sata" Mandatory="No" OrderNumber="194"/>
+                <ItemRef ItemOID="IT.alc11o2satb" Mandatory="No" OrderNumber="195"/>
+                <ItemRef ItemOID="IT.alc11wsun" Mandatory="No" OrderNumber="196"/>
+                <ItemRef ItemOID="IT.alc11fwsun" Mandatory="No" OrderNumber="197"/>
+                <ItemRef ItemOID="IT.alc11ssun" Mandatory="No" OrderNumber="198"/>
+                <ItemRef ItemOID="IT.alc11bsun" Mandatory="No" OrderNumber="199"/>
+                <ItemRef ItemOID="IT.alc11osun" Mandatory="No" OrderNumber="200"/>
+                <ItemRef ItemOID="IT.alc11o2suna" Mandatory="No" OrderNumber="201"/>
+                <ItemRef ItemOID="IT.alc11o2sunb" Mandatory="No" OrderNumber="202"/>
+                <ItemRef ItemOID="IT.alc13" Mandatory="No" OrderNumber="203"/>
+                <ItemRef ItemOID="IT.alc14" Mandatory="No" OrderNumber="204"/>
+                <ItemRef ItemOID="IT.alc15" Mandatory="No" OrderNumber="205"/>
+                <ItemRef ItemOID="IT.alc16" Mandatory="No" OrderNumber="206"/>
+                <ItemRef ItemOID="IT.ac17" Mandatory="No" OrderNumber="207"/>
+                <ItemRef ItemOID="IT.mea1" Mandatory="No" OrderNumber="208"/>
+                <ItemRef ItemOID="IT.mea1a" Mandatory="No" OrderNumber="209"/>
+                <ItemRef ItemOID="IT.mea20" Mandatory="No" OrderNumber="210"/>
+                <ItemRef ItemOID="IT.mea1b" Mandatory="No" OrderNumber="211"/>
+                <ItemRef ItemOID="IT.mea2" Mandatory="No" OrderNumber="212"/>
+                <ItemRef ItemOID="IT.mea2a" Mandatory="No" OrderNumber="213"/>
+                <ItemRef ItemOID="IT.mea2b" Mandatory="No" OrderNumber="214"/>
+                <ItemRef ItemOID="IT.mea3" Mandatory="No" OrderNumber="215"/>
+                <ItemRef ItemOID="IT.mea3a" Mandatory="No" OrderNumber="216"/>
+                <ItemRef ItemOID="IT.mea3b" Mandatory="No" OrderNumber="217"/>
+                <ItemRef ItemOID="IT.gpa" Mandatory="No" OrderNumber="218"/>
+                <ItemRef ItemOID="IT.gp1" Mandatory="No" OrderNumber="219"/>
+                <ItemRef ItemOID="IT.gp1a" Mandatory="No" OrderNumber="220"/>
+                <ItemRef ItemOID="IT.gp1b" Mandatory="No" OrderNumber="221"/>
+                <ItemRef ItemOID="IT.gp2" Mandatory="No" OrderNumber="222"/>
+                <ItemRef ItemOID="IT.gp3" Mandatory="No" OrderNumber="223"/>
+                <ItemRef ItemOID="IT.gp4" Mandatory="No" OrderNumber="224"/>
+                <ItemRef ItemOID="IT.survey_complete" Mandatory="No" OrderNumber="225"/>
+            </ItemGroupDef>
+            <ItemDef DataType="text" Name="participant_id" OID="IT.participant_id">
+                <Description>
+                    <TranslatedText xml:lang="en">Participant ID</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="exceed_study_id" OID="IT.exceed_study_id">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your Study ID number and check it is correctly entered. This can be found on letters we have sent you about the study</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="float" Name="id_chk" OID="IT.id_chk">
+                <Description>
+                    <TranslatedText xml:lang="en">This is a check on your Study ID entry. 
+Please only attempt the questionnaire if there is a 1 or 2 in the box once you have entered your Study ID above. 
+If you are completing online you should have a 1 or a 3 in this box. 
+If you are seeing a researcher to enroll you should have a 2 or a 4. Please contact us if this is not the case.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen1" OID="IT.gen1">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your date of birth</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen2" OID="IT.gen2">
+                <Description>
+                    <TranslatedText xml:lang="en">Are you male or female?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.1"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen3" OID="IT.gen3">
+                <Description>
+                    <TranslatedText xml:lang="en">Where were you born?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.2"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen4" OID="IT.gen4">
+                <Description>
+                    <TranslatedText xml:lang="en">What year did you first come to live in the United Kingdom?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen5" OID="IT.gen5">
+                <Description>
+                    <TranslatedText xml:lang="en">What is your ethnic group?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.3"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen5a" OID="IT.gen5a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your ethnic group</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen6" OID="IT.gen6">
+                <Description>
+                    <TranslatedText xml:lang="en">What is your father's ethnic group?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.4"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen6a" OID="IT.gen6a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your father's ethnic group</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen7" OID="IT.gen7">
+                <Description>
+                    <TranslatedText xml:lang="en">What is your mother's ethnic group?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.3"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gen7a" OID="IT.gen7a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your mother's ethnic group</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm1" OID="IT.sm1">
+                <Description>
+                    <TranslatedText xml:lang="en">Do you smoke tobacco now? (this includes shisha, cigarettes, cigars, cigarillos and pipes)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm2" OID="IT.sm2">
+                <Description>
+                    <TranslatedText xml:lang="en">How often do you smoke tobacco?
+
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.6"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm3" OID="IT.sm3">
+                <Description>
+                    <TranslatedText xml:lang="en">In your lifetime, have you smoked a total of at least 100 times?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.7"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm4" OID="IT.sm4">
+                <Description>
+                    <TranslatedText xml:lang="en">How old were you when you first started smoking?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm5" OID="IT.sm5">
+                <Description>
+                    <TranslatedText xml:lang="en">How old were you when you first started smoking on most or all days?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm6" OID="IT.sm6">
+                <Description>
+                    <TranslatedText xml:lang="en">What type(s) of tobacco do you smoke? (Tick any that apply)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.8"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm7" OID="IT.sm7">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cigarettes do you smoke in a typical WEEK? </TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.9"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm7a" OID="IT.sm7a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please put a number on how many cigarettes you smoke in a typical WEEK? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm8" OID="IT.sm8">
+                <Description>
+                    <TranslatedText xml:lang="en">How many ounces of tobacco do you use for hand-rolled cigarettes or pipe per WEEK? (There are 28 grammes in 1 ounce)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm9" OID="IT.sm9">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cigars/cigarillos do you smoke per WEEK?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm10b" OID="IT.sm10b">
+                <Description>
+                    <TranslatedText xml:lang="en">Which of the following best describes your shisha smoking?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.10"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm10c" OID="IT.sm10c">
+                <Description>
+                    <TranslatedText xml:lang="en">Approximately how many shishas did you smoke in the previous MONTH?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm10d" OID="IT.sm10d">
+                <Description>
+                    <TranslatedText xml:lang="en">On average, how many shishas do you smoke DAILY?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm10e" OID="IT.sm10e">
+                <Description>
+                    <TranslatedText xml:lang="en">At what age did you start shisha smoking?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm10f" OID="IT.sm10f">
+                <Description>
+                    <TranslatedText xml:lang="en">Do you usually share the same shisha with others?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.11"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm11" OID="IT.sm11">
+                <Description>
+                    <TranslatedText xml:lang="en">Prior to cigars/cigarillos/pipes or shisha, did you smoke cigarettes on most or all days?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm12" OID="IT.sm12">
+                <Description>
+                    <TranslatedText xml:lang="en">Prior to smoking cigars/cigarillos/pipes or shisha, how many cigarettes did you smoke in a typical WEEK?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm12a" OID="IT.sm12a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please put a number on how many cigarettes you used to smoke in a typical WEEK, prior to smoking cigars/cigarillos/pipes or shisha.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm13" OID="IT.sm13">
+                <Description>
+                    <TranslatedText xml:lang="en">How old were you when you last smoked cigarettes (include hand-rolled cigarettes if smoked) on most or all days?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm14" OID="IT.sm14">
+                <Description>
+                    <TranslatedText xml:lang="en">How soon after waking up do you smoke your first tobacco of the day?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.14"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm15" OID="IT.sm15">
+                <Description>
+                    <TranslatedText xml:lang="en">How easy or difficult would you find it to go without smoking for a whole day?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.15"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm16" OID="IT.sm16">
+                <Description>
+                    <TranslatedText xml:lang="en">Have you ever tried to give up smoking?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.16"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm17" OID="IT.sm17">
+                <Description>
+                    <TranslatedText xml:lang="en">How many times have you tried to give up smoking?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm18" OID="IT.sm18">
+                <Description>
+                    <TranslatedText xml:lang="en">How many times have you stopped smoking for at least 6 months?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm19" OID="IT.sm19">
+                <Description>
+                    <TranslatedText xml:lang="en">What method(s) did you use to stop smoking when you stopped for more than 6 months?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.17"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm20" OID="IT.sm20">
+                <Description>
+                    <TranslatedText xml:lang="en">Which of the following nicotine replacement therapy products have you used? 
+(you can select more than one products)
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.18"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm20a" OID="IT.sm20a">
+                <Description>
+                    <TranslatedText xml:lang="en">Which other nicotine replacement therapy product(s) have you used? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm19a" OID="IT.sm19a">
+                <Description>
+                    <TranslatedText xml:lang="en">What other method(s) did you use to stop smoking when you stopped for more than 6 months?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm21" OID="IT.sm21">
+                <Description>
+                    <TranslatedText xml:lang="en">Compared to 10 years ago do you smoke?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.19"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm22" OID="IT.sm22">
+                <Description>
+                    <TranslatedText xml:lang="en">Why did you reduce your smoking?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.20"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm23" OID="IT.sm23">
+                <Description>
+                    <TranslatedText xml:lang="en">How old were you when you first started smoking on most or all days?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm24" OID="IT.sm24">
+                <Description>
+                    <TranslatedText xml:lang="en">What type(s) of tobacco did you smoke? (Tick any that apply)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.21"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm25" OID="IT.sm25">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cigarettes did you smoke in a typical WEEK? </TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm25a" OID="IT.sm25a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please put a number on how many cigarettes you used to smoke in a typical WEEK? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm26a" OID="IT.sm26a">
+                <Description>
+                    <TranslatedText xml:lang="en">How many ounces of tobacco do you use for hand-rolled cigarettes or pipe per WEEK? (There are 28 grammes in 1 ounce)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm27" OID="IT.sm27">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cigars/cigarillos did you smoke per WEEK?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm28b" OID="IT.sm28b">
+                <Description>
+                    <TranslatedText xml:lang="en">Which of the following best described your shisha smoking?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.22"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm28c" OID="IT.sm28c">
+                <Description>
+                    <TranslatedText xml:lang="en">Approximately how many shishas did you smoke in a MONTH?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm28d" OID="IT.sm28d">
+                <Description>
+                    <TranslatedText xml:lang="en">On average, how many shishas did you smoke DAILY?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm28e" OID="IT.sm28e">
+                <Description>
+                    <TranslatedText xml:lang="en">At what age did you start shisha smoking?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm28f" OID="IT.sm28f">
+                <Description>
+                    <TranslatedText xml:lang="en">Did you usually share the same shisha with others?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.11"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm29" OID="IT.sm29">
+                <Description>
+                    <TranslatedText xml:lang="en">Prior to cigars/cigarillos/pipes/shisha smoking, did you smoke cigarettes on most or all days?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm30" OID="IT.sm30">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cigarettes did you smoke in a typical WEEK when you were also smoking cigars/cigarillos/pips or shisha?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm30a" OID="IT.sm30a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please put a number on how many cigarettes you used to smoke in a typical WEEK when you were also smoking cigars/cigarillos/pips or shisha? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm31" OID="IT.sm31">
+                <Description>
+                    <TranslatedText xml:lang="en">How old were you when you last smoked cigarettes (include hand-rolled cigarettes if smoked) on most or all days?
+(if you do not remember exactly, please provide the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm32" OID="IT.sm32">
+                <Description>
+                    <TranslatedText xml:lang="en">How soon after waking up did you smoke your first tobacco of the day?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.14"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm33" OID="IT.sm33">
+                <Description>
+                    <TranslatedText xml:lang="en">How old were you when you last smoked at all? (if you do not remember exactly, please enter the closest age)
+</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm34" OID="IT.sm34">
+                <Description>
+                    <TranslatedText xml:lang="en">Why did you stop smoking? 
+(you can select more than one answer)
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.23"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm35" OID="IT.sm35">
+                <Description>
+                    <TranslatedText xml:lang="en">What method(s) did you use to stop smoking?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.24"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm36" OID="IT.sm36">
+                <Description>
+                    <TranslatedText xml:lang="en">Which of the following nicotine replacement therapy products have you used? 
+(you can select more than one product)
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.18"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm36a" OID="IT.sm36a">
+                <Description>
+                    <TranslatedText xml:lang="en">Which other nicotine replacement therapy product(s) have you used? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm35a" OID="IT.sm35a">
+                <Description>
+                    <TranslatedText xml:lang="en">What other method(s) did you use to stop smoking?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm37" OID="IT.sm37">
+                <Description>
+                    <TranslatedText xml:lang="en">How many times did your try to give up smoking before you were successful?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm38" OID="IT.sm38">
+                <Description>
+                    <TranslatedText xml:lang="en">In the time that you smoked, did you ever stop for more than 6 months?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.7"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm39" OID="IT.sm39">
+                <Description>
+                    <TranslatedText xml:lang="en">How many times did you stop for more than 6 months?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm40" OID="IT.sm40">
+                <Description>
+                    <TranslatedText xml:lang="en">What method(s) did you use to stop smoking before you were successful?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.17"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm41" OID="IT.sm41">
+                <Description>
+                    <TranslatedText xml:lang="en">Which of the following nicotine replacement therapy products did you use? 
+(you can select more than one product)
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.18"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm41a" OID="IT.sm41a">
+                <Description>
+                    <TranslatedText xml:lang="en">Which other nicotine replacement therapy product(s) did you use? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm40a" OID="IT.sm40a">
+                <Description>
+                    <TranslatedText xml:lang="en">What other method(s) did you use to stop smoking before you were successful?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm42" OID="IT.sm42">
+                <Description>
+                    <TranslatedText xml:lang="en">Do you/have you ever smoked electronic cigarettes?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm43" OID="IT.sm43">
+                <Description>
+                    <TranslatedText xml:lang="en">Is/was this in addition to other tobacco products or instead of them?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.25"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm44" OID="IT.sm44">
+                <Description>
+                    <TranslatedText xml:lang="en">How often do you/did you smoke electronic cigarettes?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.26"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm45" OID="IT.sm45">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cartridges do you/did you use per WEEK?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm46" OID="IT.sm46">
+                <Description>
+                    <TranslatedText xml:lang="en">Do you/have you ever smoked an electronic shisha (shisha pen)?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm48" OID="IT.sm48">
+                <Description>
+                    <TranslatedText xml:lang="en">Is/was this in addition to other tobacco products or instead of them?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.25"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm47" OID="IT.sm47">
+                <Description>
+                    <TranslatedText xml:lang="en">How often do you/did you smoke electronic shisha?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.26"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm49" OID="IT.sm49">
+                <Description>
+                    <TranslatedText xml:lang="en">How many cartridges do you/did you use per WEEK?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm50" OID="IT.sm50">
+                <Description>
+                    <TranslatedText xml:lang="en">Do other members of your household smoke?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.27"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm51" OID="IT.sm51">
+                <Description>
+                    <TranslatedText xml:lang="en">At home, about how many hours per WEEK are you exposed to other people's tobacco smoke? (The time spent in an enclosed space in the company of someone who is actively smoking.)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="sm52" OID="IT.sm52">
+                <Description>
+                    <TranslatedText xml:lang="en">Outside of your home, about how many hours per WEEK are you exposed to other people's tobacco smoke? (The time spent in an enclosed space in the company of someone who is actively smoking.)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc1" OID="IT.alc1">
+                <Description>
+                    <TranslatedText xml:lang="en">How often do you drink alcohol?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.28"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc2" OID="IT.alc2">
+                <Description>
+                    <TranslatedText xml:lang="en">Did you previously drink alcohol?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc3" OID="IT.alc3">
+                <Description>
+                    <TranslatedText xml:lang="en">In an average MONTH, how many glasses [standard glass (125ml)] of unfortified wine would you drink? (there are 6 glasses in an average bottle; include red, white and rose wine)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc7" OID="IT.alc7">
+                <Description>
+                    <TranslatedText xml:lang="en">In an average MONTH, how many glasses of fortified wine would you drink? (there are 12 glasses in an average bottle; fortified wines include drinks such as sherry, port, vermouth)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc5" OID="IT.alc5">
+                <Description>
+                    <TranslatedText xml:lang="en">In an average MONTH, how many pints of beer or cider would you drink? (include bitter, lager, stout, ale, Guinness)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc6" OID="IT.alc6">
+                <Description>
+                    <TranslatedText xml:lang="en">In an average MONTH, how many measures of spirits or liqueurs would you drink? (there are 25 standard measures in a normal sized bottle; spirits include drinks such as whisky, gin, rum, vodka, brandy)</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc8" OID="IT.alc8">
+                <Description>
+                    <TranslatedText xml:lang="en">In an average MONTH, how many bottles (330ml) of other alcoholic drinks such as alcopops would you drink? </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc9" OID="IT.alc9">
+                <Description>
+                    <TranslatedText xml:lang="en">Did you drink alcohol last week?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="walc10" OID="IT.walc10">
+                <Description>
+                    <TranslatedText xml:lang="en">Wine including red, white and rose</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="fwalc10" OID="IT.fwalc10">
+                <Description>
+                    <TranslatedText xml:lang="en">Fortified wine such as sherry, port, vermouth</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="salc10" OID="IT.salc10">
+                <Description>
+                    <TranslatedText xml:lang="en">Spirits or liqueurs such as whisky, gin, rum, vodka, brandy</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="balc10" OID="IT.balc10">
+                <Description>
+                    <TranslatedText xml:lang="en">Beer or cider such as bitter, lager, stout, ale, Guinness</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="oalc10" OID="IT.oalc10">
+                <Description>
+                    <TranslatedText xml:lang="en">Other alcoholic drinks such as alcopops</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="o2alc10" OID="IT.o2alc10">
+                <Description>
+                    <TranslatedText xml:lang="en">Other alcoholic drinks</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wmon" OID="IT.alc10wmon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Monday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwmon" OID="IT.alc10fwmon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Monday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10smon" OID="IT.alc10smon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Monday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10bmon" OID="IT.alc10bmon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Monday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10omon" OID="IT.alc10omon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Monday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2mona" OID="IT.alc10o2mona">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Monday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2monb" OID="IT.alc10o2monb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Monday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wtue" OID="IT.alc10wtue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Tuesday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwtue" OID="IT.alc10fwtue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Tuesday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10stue" OID="IT.alc10stue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Tuesday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10btue" OID="IT.alc10btue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Tuesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10otue" OID="IT.alc10otue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Tuesday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2tuea" OID="IT.alc10o2tuea">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Tuesday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2tueb" OID="IT.alc10o2tueb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Tuesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wwed" OID="IT.alc10wwed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Wednesday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwwed" OID="IT.alc10fwwed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Wednesday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10swed" OID="IT.alc10swed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Wednesday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10bwed" OID="IT.alc10bwed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Wednesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10owed" OID="IT.alc10owed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Wednesday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2weda" OID="IT.alc10o2weda">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Wednesday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2wedb" OID="IT.alc10o2wedb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Wednesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wthu" OID="IT.alc10wthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Thursday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwthu" OID="IT.alc10fwthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Thursday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10sthu" OID="IT.alc10sthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Thursday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10bthu" OID="IT.alc10bthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Thursday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10othu" OID="IT.alc10othu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Thursday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2thua" OID="IT.alc10o2thua">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Thursday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2thub" OID="IT.alc10o2thub">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Thursday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wfri" OID="IT.alc10wfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Friday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwfri" OID="IT.alc10fwfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Friday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10sfri" OID="IT.alc10sfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Friday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10bfri" OID="IT.alc10bfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Friday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10ofri" OID="IT.alc10ofri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Friday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2fria" OID="IT.alc10o2fria">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Friday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2frib" OID="IT.alc10o2frib">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Friday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wsat" OID="IT.alc10wsat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Saturday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwsat" OID="IT.alc10fwsat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Saturday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10ssat" OID="IT.alc10ssat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Saturday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10bsat" OID="IT.alc10bsat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Saturday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10osat" OID="IT.alc10osat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Saturday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2sata" OID="IT.alc10o2sata">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Saturday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2satb" OID="IT.alc10o2satb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Saturday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10wsun" OID="IT.alc10wsun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine did you consume last Sunday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10fwsun" OID="IT.alc10fwsun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine did you consume last Sunday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10ssun" OID="IT.alc10ssun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs did you consume last Sunday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10bsun" OID="IT.alc10bsun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider did you consume last Sunday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10osun" OID="IT.alc10osun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops did you consume last Sunday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2suna" OID="IT.alc10o2suna">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you had on Sunday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc10o2sunb" OID="IT.alc10o2sunb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink did you consume last Sunday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11" OID="IT.alc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Was this week typical of your normal drinking?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="walc11" OID="IT.walc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Wine including red, white and rose</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="fwalc11" OID="IT.fwalc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Fortified wine such as sherry, port, vermouth</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="salc11" OID="IT.salc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Spirits or liqueurs such as whisky, gin, rum, vodka, brandy</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="balc11" OID="IT.balc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Beer or cider such as bitter, lager, stout, ale, Guinness</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="oalc11" OID="IT.oalc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Other alcoholic drinks such as alcopops</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="o2alc11" OID="IT.o2alc11">
+                <Description>
+                    <TranslatedText xml:lang="en">Other alcoholic drinks</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.29"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wmon" OID="IT.alc11wmon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Monday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwmon" OID="IT.alc11fwmon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Monday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11smon" OID="IT.alc11smon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Monday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11bmon" OID="IT.alc11bmon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Monday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11omon" OID="IT.alc11omon">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Monday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2mona" OID="IT.alc11o2mona">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Monday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2monb" OID="IT.alc11o2monb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Monday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wtue" OID="IT.alc11wtue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Tuesday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwtue" OID="IT.alc11fwtue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Tuesday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11stue" OID="IT.alc11stue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Tuesday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11btue" OID="IT.alc11btue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Tuesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11otue" OID="IT.alc11otue">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Tuesday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2tuea" OID="IT.alc11o2tuea">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Tuesday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2tueb" OID="IT.alc11o2tueb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Tuesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wwed" OID="IT.alc11wwed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Wednesday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwwed" OID="IT.alc11fwwed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Wednesday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11swed" OID="IT.alc11swed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Wednesday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11bwed" OID="IT.alc11bwed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Wednesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11owed" OID="IT.alc11owed">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Wednesday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2weda" OID="IT.alc11o2weda">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Wednesday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2wedb" OID="IT.alc11o2wedb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Wednesday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wthu" OID="IT.alc11wthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Thursday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwthu" OID="IT.alc11fwthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Thursday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11sthu" OID="IT.alc11sthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Thursday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11bthu" OID="IT.alc11bthu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Thursday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11othu" OID="IT.alc11othu">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Thursday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2thua" OID="IT.alc11o2thua">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Thursday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2thub" OID="IT.alc11o2thub">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Thursday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wfri" OID="IT.alc11wfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Friday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwfri" OID="IT.alc11fwfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Friday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11sfri" OID="IT.alc11sfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Friday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11bfri" OID="IT.alc11bfri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Friday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11ofri" OID="IT.alc11ofri">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Friday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2fria" OID="IT.alc11o2fria">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Friday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2frib" OID="IT.alc11o2frib">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Friday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wsat" OID="IT.alc11wsat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Saturday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwsat" OID="IT.alc11fwsat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Saturday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11ssat" OID="IT.alc11ssat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Saturday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11bsat" OID="IT.alc11bsat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Saturday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11osat" OID="IT.alc11osat">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Saturday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2sata" OID="IT.alc11o2sata">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Saturday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2satb" OID="IT.alc11o2satb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Saturday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11wsun" OID="IT.alc11wsun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many standard glasses of wine do you consume on a Sunday 
+[Number of standard glasses (125ml); there are 6 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11fwsun" OID="IT.alc11fwsun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many glasses of fortified wine do you consume on a Sunday 
+[There are 12 glasses in an average bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11ssun" OID="IT.alc11ssun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many measures of spirits or liqueurs do you consume on a Sunday 
+[Number of standard measures; there are 25 standard measures in a normal sized bottle]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11bsun" OID="IT.alc11bsun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many pints of beer or cider do you consume on a Sunday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11osun" OID="IT.alc11osun">
+                <Description>
+                    <TranslatedText xml:lang="en">How many other alcoholic drinks such as alcopops do you consume on a Sunday.
+[Number of bottles (330ml)]</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2suna" OID="IT.alc11o2suna">
+                <Description>
+                    <TranslatedText xml:lang="en">Please describe any other alcoholic drinks you have on a Sunday</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc11o2sunb" OID="IT.alc11o2sunb">
+                <Description>
+                    <TranslatedText xml:lang="en">How many units of this other alcoholic drink do you consume on a Sunday </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc13" OID="IT.alc13">
+                <Description>
+                    <TranslatedText xml:lang="en">When you drink alcohol is it usually with meals?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.30"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc14" OID="IT.alc14">
+                <Description>
+                    <TranslatedText xml:lang="en">Usually, when you drink alcohol are you with?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.31"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc15" OID="IT.alc15">
+                <Description>
+                    <TranslatedText xml:lang="en">Compared to 10 years ago, do you drink?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.32"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="alc16" OID="IT.alc16">
+                <Description>
+                    <TranslatedText xml:lang="en">Why did you reduce the amount you drank?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.33"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="ac17" OID="IT.ac17">
+                <Description>
+                    <TranslatedText xml:lang="en">Why did you stop drinking alcohol?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.33"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea1" OID="IT.mea1">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current weight (please select preferred units)
+
+[Measure your weight in the morning in light clothing and without wearing shoes. Place the scales on firm flooring (such as tiles or wood) rather than carpet.]
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.34"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea1a" OID="IT.mea1a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current weight in Kilogrammes.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="float" Name="mea20" OID="IT.mea20">
+                <Description>
+                    <TranslatedText xml:lang="en">Check on weight - if it says '0' please go back a question and check your entry</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea1b" OID="IT.mea1b">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current weight in stones &amp; pounds eg 8s12</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea2" OID="IT.mea2">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current waist circumference (please select preferred units)
+
+[Place the tape provided directly on the skin or on no more than one layer of light clothing. The correct place to measure your waist is horizontally halfway between your lowest rib and the top of your hipbone. This is roughly in line with your belly button. Breathe out normally and take the measure. Make sure the tape is snug, without squeezing the skin.]
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.35"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea2a" OID="IT.mea2a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current waist circumference to the nearest cm</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea2b" OID="IT.mea2b">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current waist circumference to the nearest inch eg 37</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea3" OID="IT.mea3">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current height (please select preferred units)
+
+[If you do not know your height, measure it without shoes and with hair down. Place the tape at a wall on a flat floor. Stand with your back as straight as possible and feet against the wall in front of the tape. Ask someone to read the measurement, or mark the wall above your head and then measure it.]
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.35"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea3a" OID="IT.mea3a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current height to the nearest centimetre eg 171</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="mea3b" OID="IT.mea3b">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter your current height to the nearest inch eg 67</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gpa" OID="IT.gpa">
+                <Description>
+                    <TranslatedText xml:lang="en">Are you registered with a GP practice in Leicester city or the county</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.36"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gp1" OID="IT.gp1">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the name of the medical practice you are registered with as a patient. (The practices have been ordered by post code area)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.37"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gp1a" OID="IT.gp1a">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the name of the medical practice you are registered with as a patient. (The practices have been ordered by post code area)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.38"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gp1b" OID="IT.gp1b">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the name of the medical practice you are registered with as a patient. (The practices have been ordered by post code area)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.39"/>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gp2" OID="IT.gp2">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter the name of the medical practice you are registered with</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gp3" OID="IT.gp3">
+                <Description>
+                    <TranslatedText xml:lang="en">What is the name of the doctor you usually like to see at this practice?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="gp4" OID="IT.gp4">
+                <Description>
+                    <TranslatedText xml:lang="en">What is the name of the road the medical practice you told us about above is on?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef DataType="text" Name="survey_complete" OID="IT.survey_complete">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.40"/>
+            </ItemDef>
+            <CodeList DataType="text" Name="1" OID="CL.1">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Male</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Female</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="2" OID="CL.2">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">England</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Wales</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Scotland</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Northern Ireland</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Republic of Ireland</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Elsewhere</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="3" OID="CL.3">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">White British</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Irish</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Any other white background</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Asian or Asian British</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Indian</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pakistani</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bangladeshi</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Chinese</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Any other Asian background</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Black or Black British</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Black Caribbean</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">White and Black Caribbean</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">White and Black African</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Any other mixed background</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other ethnic group (please specify)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="4" OID="CL.4">
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">White British</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Irish</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Any other white background</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Asian or Asian British</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Indian</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pakistani</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bangladeshi</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Chinese</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Any other Asian background</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Black or Black British</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Black Caribbean</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">White and Black Caribbean</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">White and Black African</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Any other mixed background</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other ethnic group (please specify)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="5" OID="CL.5">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes, on most or all days</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Only occasionally</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No, but used to smoke in the past</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No, never in the past</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="6" OID="CL.6">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">3 or more days/week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">1-2 days/week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Only at weekends</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Once per week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Once per month</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Just tried once or twice</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="7" OID="CL.7">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="8" OID="CL.8">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Manufactured cigarettes with filters</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Manufactured cigarettes without filters</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hand-rolled cigarettes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Shisha (waterpipe)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Cigars/Cigarillos</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pipe</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="9" OID="CL.9">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">At least 7 per week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Less than 1 per day</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="10" OID="CL.10">
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoke shisha yearly (at least once per year but less than monthly)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoke shisha monthly (at least once a month but less than weekly)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoke shisha weekly (at least once a week but less than daily)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoke shisha daily (at least once a day, or on most days of the month)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="11" OID="CL.11">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Not applicable</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="12" OID="CL.12">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="13" OID="CL.13">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">At least 7 per week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Less than 1 per day</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Not applicable</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="14" OID="CL.14">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Less than 5 minutes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">5-15 minutes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">15-30 minutes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">30 minutes - 1 hour</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">1-2 hours</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Longer than 2 hours</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="15" OID="CL.15">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Very easy</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Fairly easy</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Fairly difficult</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Very difficult</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="16" OID="CL.16">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes, tried but was not able to stop or stopped for less than 6 months</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes, tried and stopped for at least 6 months</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="17" OID="CL.17">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicotine replacement therapy</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bupropion Hydrochloride (Zyban)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Varenicline (Champix)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Not applicable</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="18" OID="CL.18">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicopass lozenges</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicopatch</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicorette gum</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicorette inhalator</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicorette microtab</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicorette nasal spray</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicorette patches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicorette quickmist mouthspray</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicotinell gum</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicotinell lozenges</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicotinell patches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">NiQuitin gum</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">NiQuitin lozenges</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">NiQuitin patches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">NicAssist gum</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">NicAssist</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Translucent patches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Invisi patches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">TTS patches Inhalators</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="19" OID="CL.19">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">More nowadays</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">About the same</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Less nowadays</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Not applicable</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="20" OID="CL.20">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Illness or ill health</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Doctor's advice</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Health precaution</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Financial reasons</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Smoking Ban in Public Places</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">None of the above</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="21" OID="CL.21">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Manufactured cigarettes with filters</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Manufactured cigarettes without filters</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hand-rolled cigarettes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Shisha (waterpipe)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Cigars/Cigarillos</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pipe</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">None of the above</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="22" OID="CL.22">
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoked shisha yearly (at least once per year but less than monthly</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoked shisha monthly (at least once a month but less than weekly)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoked shisha weekly (at least once a week but less than daily)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually, I smoked shisha daily (at least once a day, or on most days of the month)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="23" OID="CL.23">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Illness or ill health</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Doctor's advice</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Health precaution</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Financial reasons</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Smoking ban in public places</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">None of the above</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="24" OID="CL.24">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Nicotine replacement therapy</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bupropion Hydrochloride (Zyban)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Varenicline (Champix)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="25" OID="CL.25">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">In addition to other tobacco products</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Instead of other tobacco products</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="26" OID="CL.26">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Daily</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Weekly</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Monthly</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="27" OID="CL.27">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes, one household member smokes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes, more than one household member smokes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="28" OID="CL.28">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Daily or almost daily (5-7 days/week)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">3-4 times/week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">1-2 times/week</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">1-3 times/month</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Only during the weekends</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Only on special occasions</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Never</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="29" OID="CL.29">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Monday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Tuesday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Wednesday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Thursday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Friday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Saturday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Sunday</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="30" OID="CL.30">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">It varies</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="31" OID="CL.31">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Mainly with friends/family</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually with friends/family</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Usually alone</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Mainly alone</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Either with friends/family or alone</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="32" OID="CL.32">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">More nowadays</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">About the same</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Less nowadays</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="33" OID="CL.33">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Illness or ill health</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Doctor's advice</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Health precaution</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Financial reasons</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other reason</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Do not know</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Prefer not to answer</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="34" OID="CL.34">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter weight in Kg</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter weight in stones &amp; pounds</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="35" OID="CL.35">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter in centimetres</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter in inches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="36" OID="CL.36">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">City</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">County West</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">County East / Rutland</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Registered with a GP outside Leicestershire</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="37" OID="CL.37">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Leicester City Assist Practice LE1 2BG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr AIA Lennox &amp; Partner St Matthews Health &amp; Community Centre LE1 2NZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Practice - Bowling Green Street Surgery LE1 6AS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr JKV Patel &amp; Partners Highfields Medical Centre LE2 0GU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Inclusion Healthcare The Dawn Centre LE2 0JN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr F Docrat Shefa Medical Practice LE2 0TA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Mansingh &amp; Partner St. Peter's Health Centre or 282 Queens Road LE2 0TA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr KA Choudhry LE2 1DJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HDD Nandha &amp; Partners Evington Medical Centre LE2 1QA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr KP Newley The Maples Surgery LE2 1QH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr A Prasad &amp; Partner Clarendon Park Surgery LE2 3AG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr J Lenten The Queens Road Medical Centre LE2 3FT</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr P Khunti &amp; Partners Freemen's Common Health Centre LE2 6BF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Asquith Surgery (The Practice Plc) LE2 6FQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Saffron Surgery LE2 6TD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Saffron Group Practice LE2 6UL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr JM Wake &amp; Partners Student Health Centre LE2 7HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HS Minhas &amp; Partners Walnut Street Surgery LE2 7LE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HS Minhas &amp; Partners Aylestone Health Centre LE2 8SF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr R Sahdev 705 Aylestone Road LE2 8TG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr T K Khong &amp; Partners Pasley Road Health Centre LE2 9BU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr G Singh The Health Centre LE2 9BU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr SA Bailey &amp; Partners The Hedges Medical Centre LE2 9BU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr R Kapur &amp; Partners Melbourne Road Health Centre LE2 OGT</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr ZS Osama &amp; Partners The Melbourne Centre LE2 OGU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr SR Choudhary Highfields Surgery LE2 ONN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Shafi 5 Briton Street LE3 0AA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Westcotes Health Centre (Caretaking Practice) Westcotes Health Centre LE3 0LP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RL Hazeldine &amp; Partner Westcotes Health Centre LE3 0LP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr UK Roy LE3 0QD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Shafi (Westcotes 1) LE3 0QR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Shafi (Westcotes 2) LE3 0QR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="33">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RP Tew &amp; Partners Merridale Medical Centre LE3 1BL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="34">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr A Nana &amp; Partners Hockley Farm Medical Practice LE3 1HN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="35">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr GK Sharma &amp; Partners Fosse Medical Centre LE3 5RR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="36">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RA Leach &amp; Partners Oakmeadow Surgery LE3 8NF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="37">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr ID Patchett &amp; Partners Groby Road Medical Centre LE3 9ED</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="38">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr B Hainsworth The Parks Medical Centre LE3 9PW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="39">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Petworth Drive Surgery LE3 9RF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="40">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HV Trivedi &amp; Partners 122 Parker Drive or Manor Medical Centre LE4 0JF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="41">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr GC Ackerley &amp; Partners LE4 0QR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="42">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Practice - Beaumont Leys Beaumont Leys Health Centre LE4 0UZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="43">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RP Archer &amp; Partner Heatherbrook Surgery LE4 1EF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="44">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr SV Bapodra Belgrave Surgery LE4 5LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="45">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Brandon Street Surgery (Caretaking Practice) Belgrave Health Centre LE4 6AW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="46">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr DJ Gandecha &amp; Partner Belgrave Health Centre LE4 6AW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="47">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr R P Pandya &amp; Partners East Park Medical Centre or 41 Doncaster Road LE4 6LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="48">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr KS Morjaria &amp; Partner LE4 6NF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="49">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr B Modi 122 Canon Street LE4 6NL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="50">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr JM Fry Rushey Mead Health Centre LE4 7ZX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="51">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Rushey Mead Practice (The Practice Plc) Rushey Mead Health Centre LE4 7ZX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="52">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr IP Jones &amp; Partners Humberstone Medical Centre LE5 0PR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="53">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Johnson Medical Practice Hilltop Surgery LE5 1BJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="54">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr J G Astles &amp; Partners Willowbrook Medical Centre LE5 2NL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="55">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Charnwood Practice The Merlyn Vaz Health &amp; Social Care Centre LE5 3GH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="56">
+                    <Decode>
+                        <TranslatedText xml:lang="en">SSAFA Care Health Centre The Merlyn Vaz Health &amp; Social Care Centre LE5 3GH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="57">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr P Pancholi &amp; Partners Spinney Hill Medical Centre LE5 3HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="58">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Longworth &amp; Partners East Leicester Medical Practice LE5 4BP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="59">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr Roshan &amp; Partners The Willows Medical Centre LE5 4LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="60">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Sayeed Medical Centre (The Practice Plc) LE5 5AY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="61">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr AK Vania Ar Razi Medical Centre LE5 5PQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="62">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr J A Wood St Elizabeth's Medical Centre or 10 The Common LE5 6EA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="63">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr AJJ Bentley &amp; Partners Downing Drive Surgery LE5 6LP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="64">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="38" OID="CL.38">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Measham Medical Unit DE12 7HR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Castle Donington Surgery DE74 2LB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Birstall Medical Centre LE4 4EE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Greengate Medical Centre LE4 3JF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Leicester Medical Group, Thurmaston Health Centre LE4 8EA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Silverdale Medical C LE4 8NN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Groby Surgery LE6 0GL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ratby Surgery LE6 0JP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery Ashby de la Zouche LE65 1HS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ashby Health Centre LE65 1HU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hugglescote Surgery LE67 2BS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Coalville Health Centre LE67 3DX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery Whitwick Road Coalville LE67 3FA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Family Practice LE67 4DE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Broom Leys Surgery LE67 4DE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Long Lane Surgery LE67 4DR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Whitwick Health Centre Dr E Hepplewhite LE67 5HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Whitwick Health Centre Dr A Lewis LE67 5HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ibstock House Surgery LE67 6JP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Markfield Medical Centre LE67 9WU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Mahavir Medical Centre LE7 3QQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Anstey Surgery LE7 7AZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Orchard Medical Practice LE9 6RG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Heath Lane Surgery LE9 7PB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Barwell &amp; Hollycroft Medical Centre LE9 8HR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Desford Medical Centre LE9 9GR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Newbold Verdon Medical Practice LE9 9PZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Old School Surgery LE9 4LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Maples Family Medical Practice LE10 1DS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Centre Surgery LE10 1DS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Castle Mead Medical Centre LE10 1DS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Station View Health Centre LE10 1UA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="33">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Burbage Surgery LE10 2SE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="34">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pinfold Gate Medical Practice LE11 1DQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="35">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Woodbrook Medical Centre LE11 1NH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="36">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bridge Street Medical Practice LE11 1NQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="37">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Park View Surgery LE11 2AG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="38">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Medical Centre LE11 3TU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="39">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dishley Grange Medical Practice LE11 4RZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="40">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery, Charnwood Medical Group LE11 5DX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="41">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Charnwood Surgery LE12 7DJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="42">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Alpine House Surgery LE12 7JU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="43">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Banks Surgery LE12 7RD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="44">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Highgate Medical Centre LE12 7UD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="45">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Quorn Medical Centre LE12 8BP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="46">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Barrow Health Centre LE12 8PY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="47">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Cottage Surgery LE12 8RY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="48">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Field Street Surgery LE12 9AL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="49">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Forest House Surgery LE12 9DF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="50">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Manor House Surgery LE12 9UJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="51">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="39" OID="CL.39">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Central Surgery Oadby LE2 5AA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Wigston Central Surgery LE2 3BB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Rosemead Drive Surgery LE2 4LE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Croft Medical Centre LE2 4PE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Severn Surgery LE2 4NW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Oadby and Wigston Walk-in Medical Centre LE2 5BJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Glenfield Surgery LE3 8GS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Kings Way Surgery LE3 2JN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Narborough Health Centre LE3 0PE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Forest House Medical Centre LE3 3FN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Billesdon Surgery LE7 9NY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The County Practice LE7 2EQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Jubilee Medical Practice LE7 2EQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Countesthorpe Health Centre LE8 5QJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Northfield Medical Centre LE8 4NS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hazelmere Medical Centre LE8 4DN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Kibworth Health Centre LE8 8AJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Old School Surgery LE8 0LN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Latham House Medical Practic LE13 1NX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Long Clawson Medical Practice LE14 4PA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Uppingham Surgery LE15 9TJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Market Overton Surgery (&amp;Somerby) LE15 7PP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Oakham Medical Practice LE15 6NT</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Empingham Medical Centre LE15 8PR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Market Harborough Medical Centre LE16 9BX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">South Wigston Health Centre LE17 4EB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Wycliffe Medical Practice LE17 4EB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Masharani Practice LE17 4EB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery Husbands Bosworth LE17 6JZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Long Street Surgery LE18 2AH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr MT Shaffu 152 Station Road LE18 2BL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bushloe End Surgery LE18 2BA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="33">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enderby Medical Centre LE19 4LY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="34">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Limes Medical Centre LE19 2DU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="35">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList DataType="text" Name="40" OID="CL.40">
+                <CodeListItem CodedValue="0">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Incomplete</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Unverified</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Complete</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+        </MetaDataVersion>
+    </Study>
+    <ClinicalData MetaDataVersionOID="v1.3.1" StudyOID="4">
+        <SubjectData SubjectKey="1">
+            <StudyEventData StudyEventOID="SE.Arm 1: Event 1">
+                <FormData FormOID="FM.survey">
+                    <ItemGroupData ItemGroupOID="IG.survey">
+                        <ItemData Value="71" ItemOID="IT.exceed_study_id"/>
+                        <ItemData Value="0" ItemOID="IT.id_chk"/>
+                        <ItemData Value="1" ItemOID="IT.mea20"/>
+                        <ItemData Value="1" ItemOID="IT.participant_id"/>
+                        <ItemData Value="0" ItemOID="IT.survey_complete"/>
+                    </ItemGroupData>
+                </FormData>
+            </StudyEventData>
+        </SubjectData>
+    </ClinicalData>
+</ODM>

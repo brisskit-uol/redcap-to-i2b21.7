@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ODM FileType="Transactional" FileOID="000-000-000" CreationDateTime="2014-07-17T11:16:10.752+01:00" AsOfDateTime="2014-07-17T11:16:10.752+01:00" ODMVersion="1.3.1" SourceSystem="192.168.52.132" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.cdisc.org/ns/odm/v1.3">
+    <Study OID="5">
+        <GlobalVariables>
+            <StudyName>research professional</StudyName>
+            <StudyDescription>This project is retrieved from API site:http://192.168.52.132/redcap_service/</StudyDescription>
+            <ProtocolName>-</ProtocolName>
+        </GlobalVariables>
+        <BasicDefinitions/>
+        <MetaDataVersion OID="v1.3.1" Name="Version 1.3.1">
+            <Protocol>
+                <StudyEventRef OrderNumber="1" Mandatory="No" StudyEventOID="SE.Arm 1: Event 1"/>
+            </Protocol>
+            <StudyEventDef OID="SE.Arm 1: Event 1" Name="Arm 1: Event 1" Repeating="No" Type="Common">
+                <FormRef OrderNumber="1" Mandatory="No" FormOID="FM.anthropometry"/>
+                <FormRef OrderNumber="2" Mandatory="No" FormOID="FM.exceed_study_id_and_general_information"/>
+                <FormRef OrderNumber="3" Mandatory="No" FormOID="FM.gp_information_ddab"/>
+                <FormRef OrderNumber="4" Mandatory="No" FormOID="FM.recruitment_comments"/>
+                <FormRef OrderNumber="5" Mandatory="No" FormOID="FM.saliva_sample"/>
+                <FormRef OrderNumber="6" Mandatory="No" FormOID="FM.spirometry"/>
+            </StudyEventDef>
+            <FormDef OID="FM.anthropometry" Name="anthropometry" Repeating="No">
+                <ItemGroupRef OrderNumber="1" Mandatory="No" ItemGroupOID="IG.anthropometry"/>
+            </FormDef>
+            <FormDef OID="FM.exceed_study_id_and_general_information" Name="exceed_study_id_and_general_information" Repeating="No">
+                <ItemGroupRef OrderNumber="1" Mandatory="No" ItemGroupOID="IG.exceed_study_id_and_general_information"/>
+            </FormDef>
+            <FormDef OID="FM.gp_information_ddab" Name="gp_information_ddab" Repeating="No">
+                <ItemGroupRef OrderNumber="1" Mandatory="No" ItemGroupOID="IG.gp_information_ddab"/>
+            </FormDef>
+            <FormDef OID="FM.recruitment_comments" Name="recruitment_comments" Repeating="No">
+                <ItemGroupRef OrderNumber="1" Mandatory="No" ItemGroupOID="IG.recruitment_comments"/>
+            </FormDef>
+            <FormDef OID="FM.saliva_sample" Name="saliva_sample" Repeating="No">
+                <ItemGroupRef OrderNumber="1" Mandatory="No" ItemGroupOID="IG.saliva_sample"/>
+            </FormDef>
+            <FormDef OID="FM.spirometry" Name="spirometry" Repeating="No">
+                <ItemGroupRef OrderNumber="1" Mandatory="No" ItemGroupOID="IG.spirometry"/>
+            </FormDef>
+            <ItemGroupDef OID="IG.anthropometry" Name="anthropometry" Repeating="No">
+                <ItemRef ItemOID="IT.measurements_type" OrderNumber="1" Mandatory="No"/>
+                <ItemRef ItemOID="IT.weight_kg_rp" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="IT.height_cm_rp" OrderNumber="3" Mandatory="No"/>
+                <ItemRef ItemOID="IT.wc_cm_rp" OrderNumber="4" Mandatory="No"/>
+                <ItemRef ItemOID="IT.hp_cm_rp" OrderNumber="5" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_weight_units" OrderNumber="6" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_weight_kg" OrderNumber="7" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_weight_sp" OrderNumber="8" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_height_units" OrderNumber="9" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_ht_cm" OrderNumber="10" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_ht_feet_inch" OrderNumber="11" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_wc_units" OrderNumber="12" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_wc_cm" OrderNumber="13" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_wc_inch" OrderNumber="14" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_hc_units" OrderNumber="15" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_hc_cm" OrderNumber="16" Mandatory="No"/>
+                <ItemRef ItemOID="IT.selfreported_hc_inch" OrderNumber="17" Mandatory="No"/>
+                <ItemRef ItemOID="IT.anthropometry_complete" OrderNumber="18" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemGroupDef OID="IG.exceed_study_id_and_general_information" Name="exceed_study_id_and_general_information" Repeating="No">
+                <ItemRef ItemOID="IT.exceed_id" OrderNumber="1" Mandatory="No"/>
+                <ItemRef ItemOID="IT.exceed_id_check" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="IT.participant_consented" OrderNumber="3" Mandatory="No"/>
+                <ItemRef ItemOID="IT.research_professional" OrderNumber="4" Mandatory="No"/>
+                <ItemRef ItemOID="IT.sex" OrderNumber="5" Mandatory="No"/>
+                <ItemRef ItemOID="IT.date_of_birth" OrderNumber="6" Mandatory="No"/>
+                <ItemRef ItemOID="IT.exceed_study_id_and_general_information_complete" OrderNumber="7" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemGroupDef OID="IG.gp_information_ddab" Name="gp_information_ddab" Repeating="No">
+                <ItemRef ItemOID="IT.gp_location" OrderNumber="1" Mandatory="No"/>
+                <ItemRef ItemOID="IT.practice_city" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="IT.practice_county_west" OrderNumber="3" Mandatory="No"/>
+                <ItemRef ItemOID="IT.practice_countyeastrutland" OrderNumber="4" Mandatory="No"/>
+                <ItemRef ItemOID="IT.specify_practice" OrderNumber="5" Mandatory="No"/>
+                <ItemRef ItemOID="IT.practice_road" OrderNumber="6" Mandatory="No"/>
+                <ItemRef ItemOID="IT.doctor_name" OrderNumber="7" Mandatory="No"/>
+                <ItemRef ItemOID="IT.gp_information_ddab_complete" OrderNumber="8" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemGroupDef OID="IG.recruitment_comments" Name="recruitment_comments" Repeating="No">
+                <ItemRef ItemOID="IT.successful_recruitment" OrderNumber="1" Mandatory="No"/>
+                <ItemRef ItemOID="IT.recruitment_comments" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="IT.specify_comments" OrderNumber="3" Mandatory="No"/>
+                <ItemRef ItemOID="IT.recruitment_comments_complete" OrderNumber="4" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemGroupDef OID="IG.saliva_sample" Name="saliva_sample" Repeating="No">
+                <ItemRef ItemOID="IT.saliva_sample_barcode" OrderNumber="1" Mandatory="No"/>
+                <ItemRef ItemOID="IT.saliva_sample_kit" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="IT.saliva_sample_complete" OrderNumber="3" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemGroupDef OID="IG.spirometry" Name="spirometry" Repeating="No">
+                <ItemRef ItemOID="IT.chest_infection" OrderNumber="1" Mandatory="No"/>
+                <ItemRef ItemOID="IT.detached_retina" OrderNumber="2" Mandatory="No"/>
+                <ItemRef ItemOID="IT.heart_attack" OrderNumber="3" Mandatory="No"/>
+                <ItemRef ItemOID="IT.surgery" OrderNumber="4" Mandatory="No"/>
+                <ItemRef ItemOID="IT.collapsed_lung" OrderNumber="5" Mandatory="No"/>
+                <ItemRef ItemOID="IT.pregnancy" OrderNumber="6" Mandatory="No"/>
+                <ItemRef ItemOID="IT.tuberculosis" OrderNumber="7" Mandatory="No"/>
+                <ItemRef ItemOID="IT.first_blow_acceptable" OrderNumber="8" Mandatory="No"/>
+                <ItemRef ItemOID="IT.fev1_1st_blow" OrderNumber="9" Mandatory="No"/>
+                <ItemRef ItemOID="IT.fvc_1st_blow" OrderNumber="10" Mandatory="No"/>
+                <ItemRef ItemOID="IT.second_blow_acceptable" OrderNumber="11" Mandatory="No"/>
+                <ItemRef ItemOID="IT.fev1_2nd_blow" OrderNumber="12" Mandatory="No"/>
+                <ItemRef ItemOID="IT.fvc_2nd_blow" OrderNumber="13" Mandatory="No"/>
+                <ItemRef ItemOID="IT.third_blow_acceptable" OrderNumber="14" Mandatory="No"/>
+                <ItemRef ItemOID="IT.fev1_3rd_blow" OrderNumber="15" Mandatory="No"/>
+                <ItemRef ItemOID="IT.fvc_3rd_blow" OrderNumber="16" Mandatory="No"/>
+                <ItemRef ItemOID="IT.spirometry_completed" OrderNumber="17" Mandatory="No"/>
+                <ItemRef ItemOID="IT.spirometry_protocol" OrderNumber="18" Mandatory="No"/>
+                <ItemRef ItemOID="IT.reason" OrderNumber="19" Mandatory="No"/>
+                <ItemRef ItemOID="IT.spirometry_complete" OrderNumber="20" Mandatory="No"/>
+            </ItemGroupDef>
+            <ItemDef OID="IT.measurements_type" Name="measurements_type" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select participant's type of measurements.</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.1"/>
+            </ItemDef>
+            <ItemDef OID="IT.weight_kg_rp" Name="weight_kg_rp" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's weight (kg) measured by research professional.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.height_cm_rp" Name="height_cm_rp" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's height (cm) measured by research professional.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.wc_cm_rp" Name="wc_cm_rp" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's waist circumference (cm) measured by research professional.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.hp_cm_rp" Name="hp_cm_rp" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's hip circumference (cm) measured by research professional.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_weight_units" Name="selfreported_weight_units" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported weight (please select preferred units).</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.2"/>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_weight_kg" Name="selfreported_weight_kg" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported weight (kg).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_weight_sp" Name="selfreported_weight_sp" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter usual self-reported weight in stones &amp; pounds. </TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_height_units" Name="selfreported_height_units" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter usual self-reported height (please select preferred units).</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.3"/>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_ht_cm" Name="selfreported_ht_cm" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported height (cm).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_ht_feet_inch" Name="selfreported_ht_feet_inch" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported height (feet &amp; inches).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_wc_units" Name="selfreported_wc_units" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported waist circumference (please select preferred units).</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.4"/>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_wc_cm" Name="selfreported_wc_cm" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported waist circumference (cm).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_wc_inch" Name="selfreported_wc_inch" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported waist circumference (inches).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_hc_units" Name="selfreported_hc_units" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported hip circumference (please select preferred units).</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.4"/>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_hc_cm" Name="selfreported_hc_cm" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported hip circumference (cm).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.selfreported_hc_inch" Name="selfreported_hc_inch" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's usual self-reported hip circumference (inches).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.anthropometry_complete" Name="anthropometry_complete" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <ItemDef OID="IT.exceed_id" Name="exceed_id" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">EXCEED study ID</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.exceed_id_check" Name="exceed_id_check" DataType="float">
+                <Description>
+                    <TranslatedText xml:lang="en">This is a check on participant's EXCEED study ID. 
+Please only attempt the questionnaire if there is a 2 or 4 in the box once you have scanned participant's ID above. 
+If you are recruiting a participant from primary care you should have 2 in this box. 
+If you are recruiting a participant from smoking cessation services you should have a 4. 
+Please contact EXCEED study administrator if this is not the case.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.participant_consented" Name="participant_consented" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Has the participant consented?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.research_professional" Name="research_professional" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select research professional's name taking participant's consent.</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.6"/>
+            </ItemDef>
+            <ItemDef OID="IT.sex" Name="sex" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select participant's gender.</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.7"/>
+            </ItemDef>
+            <ItemDef OID="IT.date_of_birth" Name="date_of_birth" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter participant's date of birth (DD-MM-YYYY).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.exceed_study_id_and_general_information_complete" Name="exceed_study_id_and_general_information_complete" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <ItemDef OID="IT.gp_location" Name="gp_location" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Is the participant registered with a GP practice in Leicester city or the county?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.8"/>
+            </ItemDef>
+            <ItemDef OID="IT.practice_city" Name="practice_city" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the name of participant's medical practice they are registered with as a patient.
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.9"/>
+            </ItemDef>
+            <ItemDef OID="IT.practice_county_west" Name="practice_county_west" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the name of participant's medical practice they are registered with as a patient.
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.10"/>
+            </ItemDef>
+            <ItemDef OID="IT.practice_countyeastrutland" Name="practice_countyeastrutland" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the name of participant's medical practice they are registered with as a patient.
+</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.11"/>
+            </ItemDef>
+            <ItemDef OID="IT.specify_practice" Name="specify_practice" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter the name of participant's medical practice they are registered with.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.practice_road" Name="practice_road" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">What is the name of the road the medical practice participant told us about above is on?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.doctor_name" Name="doctor_name" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">What is the name of the doctor participant usually likes to see at this practice?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.gp_information_ddab_complete" Name="gp_information_ddab_complete" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <ItemDef OID="IT.successful_recruitment" Name="successful_recruitment" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Has participant's recruitment to the study completed successfully?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.recruitment_comments" Name="recruitment_comments" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Do you have any comments regarding participant's recruitment?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.specify_comments" Name="specify_comments" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please specify your comments regarding participant's recruitment.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.recruitment_comments_complete" Name="recruitment_comments_complete" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <ItemDef OID="IT.saliva_sample_barcode" Name="saliva_sample_barcode" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please scan saliva collector barcode (after collection of saliva sample from participant).</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.saliva_sample_kit" Name="saliva_sample_kit" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please select the saliva collection kit used by the participant.</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.12"/>
+            </ItemDef>
+            <ItemDef OID="IT.saliva_sample_complete" Name="saliva_sample_complete" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <ItemDef OID="IT.chest_infection" Name="chest_infection" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Chest infection in the last month (i.e. influenza, bronchitis, severe cold, pneumonia)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.detached_retina" Name="detached_retina" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">History of detached retina</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.heart_attack" Name="heart_attack" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Heart attack in the last three months</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.surgery" Name="surgery" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Surgery to eyes, chest, or abdomen in the last three months</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.collapsed_lung" Name="collapsed_lung" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">History of a collapsed lung</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.pregnancy" Name="pregnancy" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Pregnancy (1st or 3rd trimester)</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.tuberculosis" Name="tuberculosis" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Currently on medication for tuberculosis</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.13"/>
+            </ItemDef>
+            <ItemDef OID="IT.first_blow_acceptable" Name="first_blow_acceptable" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Was participant's blow acceptable?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.fev1_1st_blow" Name="fev1_1st_blow" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter FEV1 from participant's FIRST acceptable blow.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.fvc_1st_blow" Name="fvc_1st_blow" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter FVC from participant's FIRST acceptable blow.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.second_blow_acceptable" Name="second_blow_acceptable" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Was participant's blow acceptable?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.fev1_2nd_blow" Name="fev1_2nd_blow" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter FEV1 from participant's SECOND acceptable blow.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.fvc_2nd_blow" Name="fvc_2nd_blow" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter FVC from participant's SECOND acceptable blow.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.third_blow_acceptable" Name="third_blow_acceptable" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Was participant's blow acceptable?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.fev1_3rd_blow" Name="fev1_3rd_blow" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter FEV1 from participant's THIRD acceptable blow.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.fvc_3rd_blow" Name="fvc_3rd_blow" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please enter FVC from participant's THIRD acceptable blow.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.spirometry_completed" Name="spirometry_completed" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Has spirometry been completed?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.spirometry_protocol" Name="spirometry_protocol" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Has spirometry been completed according to protocol?</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.reason" Name="reason" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Please specify the reason why spirometry has not been completed according to protocol.</TranslatedText>
+                </Description>
+            </ItemDef>
+            <ItemDef OID="IT.spirometry_complete" Name="spirometry_complete" DataType="text">
+                <Description>
+                    <TranslatedText xml:lang="en">Complete?</TranslatedText>
+                </Description>
+                <CodeListRef CodeListOID="CL.5"/>
+            </ItemDef>
+            <CodeList OID="CL.1" Name="1" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Measured by research professional</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Self-reported (usual)</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.2" Name="2" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter weight in kilograms</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter weight in stones &amp; pounds</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.3" Name="3" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter in centimetres</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter in feet &amp; inches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.4" Name="4" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter in centimetres</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enter in inches</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.5" Name="5" DataType="text">
+                <CodeListItem CodedValue="0">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Incomplete</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Unverified</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Complete</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.6" Name="6" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Choudhry Anbar</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Chowdary Qasim</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Haines Christina</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hartwell Lynne</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hill Alison</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Lai Pamela</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Lee Deborah</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Melvin Gail</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Porter Sheila</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pringle Tom</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ross Louise</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Strand Janice</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Weston Margaret</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.7" Name="7" DataType="text">
+                <CodeListItem CodedValue="0">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Female</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Male</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.8" Name="8" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">City</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">County West</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">County East / Rutland</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Registered with a GP outside Leicestershire</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.9" Name="9" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Leicester City Assist Practice LE1 2BG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr AIA Lennox &amp; Partner St Matthews Health &amp; Community Centre LE1 2NZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Practice - Bowling Green Street Surgery LE1 6AS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr JKV Patel &amp; Partners Highfields Medical Centre LE2 0GU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Inclusion Healthcare The Dawn Centre LE2 0JN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr F Docrat Shefa Medical Practice LE2 0TA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Mansingh &amp; Partner St. Peter's Health Centre or 282 Queens Road LE2 0TA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr KA Choudhry LE2 1DJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HDD Nandha &amp; Partners Evington Medical Centre LE2 1QA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr KP Newley The Maples Surgery LE2 1QH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr A Prasad &amp; Partner Clarendon Park Surgery LE2 3AG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr J Lenten The Queens Road Medical Centre LE2 3FT</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr P Khunti &amp; Partners Freemen's Common Health Centre LE2 6BF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Asquith Surgery (The Practice Plc) LE2 6FQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Saffron Surgery LE2 6TD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Saffron Group Practice LE2 6UL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr JM Wake &amp; Partners Student Health Centre LE2 7HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HS Minhas &amp; Partners Walnut Street Surgery LE2 7LE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HS Minhas &amp; Partners Aylestone Health Centre LE2 8SF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr R Sahdev 705 Aylestone Road LE2 8TG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr T K Khong &amp; Partners Pasley Road Health Centre LE2 9BU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr G Singh The Health Centre LE2 9BU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr SA Bailey &amp; Partners The Hedges Medical Centre LE2 9BU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr R Kapur &amp; Partners Melbourne Road Health Centre LE2 OGT</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr ZS Osama &amp; Partners The Melbourne Centre LE2 OGU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr SR Choudhary Highfields Surgery LE2 ONN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Shafi 5 Briton Street LE3 0AA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Westcotes Health Centre (Caretaking Practice) Westcotes Health Centre LE3 0LP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RL Hazeldine &amp; Partner Westcotes Health Centre LE3 0LP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr UK Roy LE3 0QD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Shafi (Westcotes 1) LE3 0QR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Shafi (Westcotes 2) LE3 0QR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="33">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RP Tew &amp; Partners Merridale Medical Centre LE3 1BL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="34">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr A Nana &amp; Partners Hockley Farm Medical Practice LE3 1HN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="35">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr GK Sharma &amp; Partners Fosse Medical Centre LE3 5RR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="36">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RA Leach &amp; Partners Oakmeadow Surgery LE3 8NF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="37">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr ID Patchett &amp; Partners Groby Road Medical Centre LE3 9ED</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="38">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr B Hainsworth The Parks Medical Centre LE3 9PW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="39">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Petworth Drive Surgery LE3 9RF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="40">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr HV Trivedi &amp; Partners 122 Parker Drive or Manor Medical Centre LE4 0JF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="41">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr GC Ackerley &amp; Partners LE4 0QR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="42">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Practice - Beaumont Leys Beaumont Leys Health Centre LE4 0UZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="43">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr RP Archer &amp; Partner Heatherbrook Surgery LE4 1EF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="44">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr SV Bapodra Belgrave Surgery LE4 5LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="45">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Brandon Street Surgery (Caretaking Practice) Belgrave Health Centre LE4 6AW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="46">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr DJ Gandecha &amp; Partner Belgrave Health Centre LE4 6AW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="47">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr R P Pandya &amp; Partners East Park Medical Centre or 41 Doncaster Road LE4 6LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="48">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr KS Morjaria &amp; Partner LE4 6NF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="49">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr B Modi 122 Canon Street LE4 6NL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="50">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr JM Fry Rushey Mead Health Centre LE4 7ZX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="51">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Rushey Mead Practice (The Practice Plc) Rushey Mead Health Centre LE4 7ZX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="52">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr IP Jones &amp; Partners Humberstone Medical Centre LE5 0PR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="53">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Johnson Medical Practice Hilltop Surgery LE5 1BJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="54">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr J G Astles &amp; Partners Willowbrook Medical Centre LE5 2NL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="55">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Charnwood Practice The Merlyn Vaz Health &amp; Social Care Centre LE5 3GH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="56">
+                    <Decode>
+                        <TranslatedText xml:lang="en">SSAFA Care Health Centre The Merlyn Vaz Health &amp; Social Care Centre LE5 3GH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="57">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr P Pancholi &amp; Partners Spinney Hill Medical Centre LE5 3HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="58">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr S Longworth &amp; Partners East Leicester Medical Practice LE5 4BP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="59">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr Roshan &amp; Partners The Willows Medical Centre LE5 4LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="60">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Sayeed Medical Centre (The Practice Plc) LE5 5AY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="61">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr AK Vania Ar Razi Medical Centre LE5 5PQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="62">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr J A Wood St Elizabeth's Medical Centre or 10 The Common LE5 6EA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="63">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr AJJ Bentley &amp; Partners Downing Drive Surgery LE5 6LP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="64">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.10" Name="10" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Measham Medical Unit DE12 7HR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Castle Donington Surgery DE74 2LB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Birstall Medical Centre LE4 4EE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Greengate Medical Centre LE4 3JF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Leicester Medical Group, Thurmaston Health Centre LE4 8EA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Silverdale Medical C LE4 8NN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Groby Surgery LE6 0GL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ratby Surgery LE6 0JP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery Ashby de la Zouche LE65 1HS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ashby Health Centre LE65 1HU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hugglescote Surgery LE67 2BS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Coalville Health Centre LE67 3DX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery Whitwick Road Coalville LE67 3FA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Family Practice LE67 4DE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Broom Leys Surgery LE67 4DE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Long Lane Surgery LE67 4DR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Whitwick Health Centre Dr E Hepplewhite LE67 5HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Whitwick Health Centre Dr A Lewis LE67 5HX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Ibstock House Surgery LE67 6JP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Markfield Medical Centre LE67 9WU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Mahavir Medical Centre LE7 3QQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Anstey Surgery LE7 7AZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Orchard Medical Practice LE9 6RG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Heath Lane Surgery LE9 7PB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Barwell &amp; Hollycroft Medical Centre LE9 8HR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Desford Medical Centre LE9 9GR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Newbold Verdon Medical Practice LE9 9PZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Old School Surgery LE9 4LJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Maples Family Medical Practice LE10 1DS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Centre Surgery LE10 1DS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Castle Mead Medical Centre LE10 1DS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Station View Health Centre LE10 1UA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="33">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Burbage Surgery LE10 2SE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="34">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Pinfold Gate Medical Practice LE11 1DQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="35">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Woodbrook Medical Centre LE11 1NH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="36">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bridge Street Medical Practice LE11 1NQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="37">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Park View Surgery LE11 2AG</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="38">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Medical Centre LE11 3TU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="39">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dishley Grange Medical Practice LE11 4RZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="40">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery, Charnwood Medical Group LE11 5DX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="41">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Charnwood Surgery LE12 7DJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="42">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Alpine House Surgery LE12 7JU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="43">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Banks Surgery LE12 7RD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="44">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Highgate Medical Centre LE12 7UD</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="45">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Quorn Medical Centre LE12 8BP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="46">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Barrow Health Centre LE12 8PY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="47">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Cottage Surgery LE12 8RY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="48">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Field Street Surgery LE12 9AL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="49">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Forest House Surgery LE12 9DF</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="50">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Manor House Surgery LE12 9UJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="51">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.11" Name="11" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Central Surgery Oadby LE2 5AA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Wigston Central Surgery LE2 3BB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Rosemead Drive Surgery LE2 4LE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="4">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Croft Medical Centre LE2 4PE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="5">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Severn Surgery LE2 4NW</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="6">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Oadby and Wigston Walk-in Medical Centre LE2 5BJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="7">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Glenfield Surgery LE3 8GS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="8">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Kings Way Surgery LE3 2JN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="9">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Narborough Health Centre LE3 0PE</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="10">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Forest House Medical Centre LE3 3FN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="11">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Billesdon Surgery LE7 9NY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="12">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The County Practice LE7 2EQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="13">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Jubilee Medical Practice LE7 2EQ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="14">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Countesthorpe Health Centre LE8 5QJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="15">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Northfield Medical Centre LE8 4NS</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="16">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Hazelmere Medical Centre LE8 4DN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="17">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Kibworth Health Centre LE8 8AJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="18">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Old School Surgery LE8 0LN</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="19">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Latham House Medical Practic LE13 1NX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="20">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Long Clawson Medical Practice LE14 4PA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="21">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Uppingham Surgery LE15 9TJ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="22">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Market Overton Surgery (&amp;Somerby) LE15 7PP</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="23">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Oakham Medical Practice LE15 6NT</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="24">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Empingham Medical Centre LE15 8PR</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="25">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Market Harborough Medical Centre LE16 9BX</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="26">
+                    <Decode>
+                        <TranslatedText xml:lang="en">South Wigston Health Centre LE17 4EB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="27">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Wycliffe Medical Practice LE17 4EB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="28">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Masharani Practice LE17 4EB</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="29">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Surgery Husbands Bosworth LE17 6JZ</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="30">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Long Street Surgery LE18 2AH</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="31">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Dr MT Shaffu 152 Station Road LE18 2BL</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="32">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Bushloe End Surgery LE18 2BA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="33">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Enderby Medical Centre LE19 4LY</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="34">
+                    <Decode>
+                        <TranslatedText xml:lang="en">The Limes Medical Centre LE19 2DU</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="35">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Other</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.12" Name="12" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">OrageneDNA</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">SalivaGene</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+            <CodeList OID="CL.13" Name="13" DataType="text">
+                <CodeListItem CodedValue="1">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Yes</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="2">
+                    <Decode>
+                        <TranslatedText xml:lang="en">No</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+                <CodeListItem CodedValue="3">
+                    <Decode>
+                        <TranslatedText xml:lang="en">Unsure</TranslatedText>
+                    </Decode>
+                </CodeListItem>
+            </CodeList>
+        </MetaDataVersion>
+    </Study>
+    <ClinicalData StudyOID="5" MetaDataVersionOID="v1.3.1">
+        <SubjectData SubjectKey="73">
+            <StudyEventData StudyEventOID="SE.Arm 1: Event 1">
+                <FormData FormOID="FM.exceed_study_id_and_general_information">
+                    <ItemGroupData ItemGroupOID="IG.exceed_study_id_and_general_information">
+                        <ItemData Value="2014-07-01" ItemOID="IT.date_of_birth"/>
+                        <ItemData Value="73" ItemOID="IT.exceed_id"/>
+                        <ItemData Value="4" ItemOID="IT.exceed_id_check"/>
+                        <ItemData Value="0" ItemOID="IT.exceed_study_id_and_general_information_complete"/>
+                        <ItemData Value="1" ItemOID="IT.participant_consented"/>
+                        <ItemData Value="2" ItemOID="IT.research_professional"/>
+                        <ItemData Value="0" ItemOID="IT.sex"/>
+                    </ItemGroupData>
+                </FormData>
+            </StudyEventData>
+        </SubjectData>
+    </ClinicalData>
+</ODM>
